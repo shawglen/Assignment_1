@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- borrowed from https://android-
+                                   -code.blogspot.ca/2015/08/android-imagebutton-pressed-state.html -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- disabled state-->
+    <!-- pressed state / clicked state -->
+    <!-- focused state -->
+    <!-- enabled state / default state-->
+    <item android:state_enabled="false" android:drawable="@android:color/holo_red_light" />
+    <item android:state_pressed="true" android:state_enabled="true" android:drawable="@android:color/holo_red_dark" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@android:color/holo_orange_dark" />
+    <item android:state_enabled="true" android:drawable="@android:color/holo_blue_light" />
+</selector>
